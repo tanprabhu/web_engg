@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .submit{
+            text-align: center;
+            text-decoration:none;
+            font-size: 15px;
+            display: inline-block;
+            border-radius: 5px;
+            padding:8px 10px;
+           
+        }
+        .form{
+            align-content: center;
+        }
+    </style>
+    <title>Registration Page</title>
+</head>
+<body>
+    <h2 align="center"><u>Email Account Form</u> </h1>
+    <br>
+    <br>
+<form>
+    <label>Enter Username:</label>
+    <input type="text" name="username" size="15"/> <br> <br>
+    <label>Enter Password:</label>
+    <input type="password" name="password" size="15"/> <br> <br>
+    Address: 
+    <textarea cols="40" rows="5" value="address"></textarea>
+    <br><br>
+    <label>Fields of Interest: </label>
+    <input type="radio" name="entertainment"/> Entertainment 
+    <input type="radio" name="sports"/> Sports 
+    <input type="radio" name="news"/> News 
+    <br>
+    <br>
+    <label>Gender :</label>
+    <input type="radio" name="male"/> Male 
+    <input type="radio" name="female"/> Female 
+    <br>
+    <br>
+    <label>Select Languages :</label>
+    <select>
+    <option value="marathi">Marathi</option>
+    <option value="hindi">Hindi</option>        
+    <option value="english">English</option>
+    </select>
+    <br><br>
+
+    <label>Select Country :</label>
+    <select>
+    <option value="india">India</option>
+    <option value="usa">USA</option>        
+    <option value="france">France</option>
+    </select>
+    <br><br>
+    <label>Upload Photo: </label>
+    <input type="file" id="myFile" name="filename">
+    <br> <br>
+    <input class="submit" type="submit">
+    
+
+</form>
+    
+</body>
+</html>
